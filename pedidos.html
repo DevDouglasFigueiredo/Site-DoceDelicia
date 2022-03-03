@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sol Doce Delicia</title>
+        <link rel="stylesheet" href="Css/reset.css">
+        <link rel="stylesheet" href="Css/pedidos.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oooh+Baby&display=swap" rel="stylesheet">
+    </head>
+        <body>
+            <header>
+                <div class="caixa">
+                    <img src="../Site DoceDelicia/imagens/logo docedelicia.jpeg" alt="logo da empresa">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="cardapio.html">Cardapio</a></li>
+                            <li><a href="pedidos.html">Faça seu pedido</a></li>
+                        </ul>
+                   </nav>
+                </div>
+            </header>
+                <main>
+                    <form>
+                        <label for="nome e sobrenome">Nome e Sobrenome</label>
+                        <input type="text" id="nome e sobrenome" class="input-padrao" required>
+
+                        <label for="Telefone">Telefone</label>
+                        <input type="tel" id="Telefone"class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email"class="input-padrao" placeholder="seuemail@dominio.com.br" required>
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea cols="70" rows="10" id="mensagem"class="input-padrao" placeholder="descreva seu pedido aqui"></textarea>
+
+                    <div>
+                        <p>Como prefere o nosso contato ?</p>
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                        <label for="radio-telefone"><input type="radio" name="contato" value="Telefone" id="radio-telefone">Telefone</label>
+                        <label for="radio-wthatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">whatsapp</label>
+                    </div>
+
+                    <div>
+                        <p>Qual horario você quer sua encomenda ?</p>
+                        <select>
+                            <option>Manha</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </div>
+
+                        <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas promoções via whatsapp?</label>
+
+                        <input type="submit" value="Enviar formulário" class="enviar">
+                    </form>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Horario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda-Feira</td>
+                                <td>08h-20h</td>
+                            </tr>
+                            <tr>
+                                <td>Quarta-Feira</td>
+                                <td>08h-20h</td>
+                            </tr>
+                            <tr>
+                                <td>Sexta-Feira</td>
+                                <td>08h-20h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </main>
+                <footer>
+                    <img class="imagem-rodape" src="../Site DoceDelicia/imagens/logo docedelicia.jpeg" alt="logo da empresa">
+                    <legend>(48)99936-0562</legend>
+                    <legend>antendimento das 08h-17h</legend>
+                    <legend>soldocedelicia@gmail.com</legend>
+                    <legend>CNPJ: 07.836.363/0001-00</legend>
+                    <p class="copyright">&copy; Copyright Sol DoceDelicia by Douglas 2021</p>
+                </footer>
+            </body>
+    </html>

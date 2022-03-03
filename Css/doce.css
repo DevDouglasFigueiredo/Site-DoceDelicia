@@ -1,0 +1,78 @@
+.doces__cardapio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: antiquewhite;
+    padding: 5rem 0 0 5rem;
+    
+}
+
+.doce__conteudo{
+    padding: 1rem;
+    
+}
+
+.doce{
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: 23.6%
+    
+
+}
+.doce__imagem{
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+.doce__imagem:hover{
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+.doce__titulo{
+    text-align: center;
+    font-size: 1.80rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.doce__descricao{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    line-height: 1.5em;
+}
+
+.doce__botao{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    background-color: #8d0606;
+    color: seashell;
+    border-radius: 2px;
+    transition: all , 1s ease-in-out;
+    padding: 1rem;
+}
+
+.doce__botao:hover{
+    cursor: pointer;
+    background: #620404;
+}
+
+@media screen and (min-width: 0){
+    
+    .doce{
+        width: 100%;
+        margin-left: 1.37rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+    .doce{
+        width: 23.6%;
+    }
+}

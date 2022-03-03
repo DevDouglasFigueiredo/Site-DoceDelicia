@@ -1,0 +1,115 @@
+body, html {
+    overflow-x: hidden !important;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Oooh Baby', cursive;
+}
+
+header{
+    background: #8B4513;
+    padding: 1em 0;
+    
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000;
+}
+
+nav a:hover{
+    color: #c79c18;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+
+}
+
+form label, form p{
+    display: block;
+    font-size: 2em;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 5px 20px;
+}
+
+.checkbox{
+    margin: 1em 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color:palegoldenrod;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+footer{
+    text-align: center;
+    background: #8B4513;
+    padding: 1em;
+
+}
+
+.imagem-rodape{
+width: 7%;
+}
+
+.copyright{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+legend{
+    color: #FFFFFF
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #8B4513;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+td, th{
+    border: 2px solid #000000;
+    padding: 10px 25px;
+    font-size: 18px;
+}

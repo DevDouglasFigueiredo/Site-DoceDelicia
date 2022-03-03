@@ -1,0 +1,47 @@
+body, html {
+    overflow-x: hidden !important;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Oooh Baby', cursive;
+
+}
+
+.banner{
+    width: 100%;
+    height: calc(100vh - 89px);
+    position: relative;
+
+}
+
+.banner__titulo{
+    font-size: 5.065rem;
+    font-weight: bold;
+    color: #fbfbfb;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    transform: translate(-50%, -50%);
+
+}
+
+@media screen and (min-width: 0){
+    .banner{
+        width: 100%vh;
+        height: 60vh;
+    }
+
+    .banner__titulo{
+        font-size: 3.5rem;
+        top: 45%;
+    }
+
+}
+
+
+@media screen and (min-width: 768px){
+    .banner__titulo{
+        font-size: 5.0625rem;
+    }
+    
+}

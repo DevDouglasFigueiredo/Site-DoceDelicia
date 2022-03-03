@@ -1,0 +1,96 @@
+.cabecalho{
+    background: #f0efef;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.logo{
+    width: 10%;
+    
+}
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__item{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.menu__link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+nav a:hover{
+    color: #c79c18;
+    text-decoration: underline;
+}
+
+.botao__mobile{
+    display: none;
+}
+
+@media screen and (min-width: 0){
+    .cabecalho{
+        justify-content: space-between;
+        padding: 2rem 2rem;
+        
+    }
+    .logo{
+        display: block;
+    }
+
+    .botao__mobile{
+        display: block;
+        border: none;
+        z-index: 101;
+        background: none;
+    }
+
+    .menu__navegacao{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        background-color: #c79c18;
+        height: 100vh;
+        z-index: 100;
+        padding-top: 6rem;
+        transition: .5s ease-in-out;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .menu__item{
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-top: 3rem;
+
+    }
+
+    .menu__navegacao.active{
+        right: -300px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .cabecalho{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+    .logo{
+        display: block;
+    }
+}
