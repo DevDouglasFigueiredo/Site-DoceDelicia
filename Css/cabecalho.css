@@ -40,7 +40,7 @@ nav a:hover{
     display: none;
 }
 
-@media screen and (min-width: 0){
+@media screen and (max-width: 468px){
     .cabecalho{
         justify-content: space-between;
         padding: 2rem 2rem;
@@ -55,6 +55,7 @@ nav a:hover{
         border: none;
         z-index: 101;
         background: none;
+        cursor: pointer;
     }
 
     .menu__navegacao{
@@ -63,7 +64,7 @@ nav a:hover{
         flex-direction: column;
         right: 0;
         top: 0;
-        background-color: #c79c18;
+        background-color: antiquewhite;
         height: 100vh;
         z-index: 100;
         padding-top: 6rem;
@@ -85,7 +86,7 @@ nav a:hover{
 
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
     .cabecalho{
         justify-content: space-between;
         padding: 0 5rem;
