@@ -32,6 +32,7 @@
 .doce__imagem:hover{
     opacity: 0.6;
     transition: 400ms;
+    
 }
 
 .doce__titulo{
