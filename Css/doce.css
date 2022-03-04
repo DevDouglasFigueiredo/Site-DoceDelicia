@@ -18,7 +18,9 @@
     background: whitesmoke;
     margin-bottom: 5rem;
     margin-right: 5rem;
-    width: 23.6%
+    width: 300px;
+    max-width: 400px;
+
     
 
 }
@@ -62,17 +64,25 @@
     background: #620404;
 }
 
-@media screen and (min-width: 0){
+@media screen and (max-width: 468px){
     
     .doce{
-        width: 100%;
+        width: 300px;
+        max-width: 320px;
         margin-left: 1.37rem;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     
     .doce{
-        width: 23.6%;
+        width: 310px;
+        max-width: 330px;
+        margin-left: 1.37rem;
+    }
+
+    .doce__imagem{
+        width: 50vh;
+        margin-bottom: 1rem;
     }
 }
